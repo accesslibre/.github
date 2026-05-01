@@ -1,0 +1,50 @@
+name: Accessibility barrier
+description: Report an accessibility issue in an IATF repository or output.
+title: "[A11y]: "
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to report an accessibility barrier in a
+        specific IATF project repository (its code, demo, docs, or
+        generated output).
+
+        **Barriers on the `iatf.cc` site itself go to email first:**
+        <accessibility@iatf.cc>. IATF maintainers redact and move
+        site barriers into the relevant repository when needed.
+
+        You do not need to write a formal bug report. A clear
+        description is enough.
+  - type: input
+    id: where
+    attributes:
+      label: Where did this happen?
+      description: Repository, page, route, or specific component.
+    validations:
+      required: true
+  - type: textarea
+    id: trying-to-do
+    attributes:
+      label: What were you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: what-went-wrong
+    attributes:
+      label: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: what-would-help
+    attributes:
+      label: What would have helped?
+    validations:
+      required: false
+  - type: input
+    id: assistive-tech
+    attributes:
+      label: Assistive technology, browser, or device
+      description: Optional. Helpful when the barrier is specific to a setup.
+    validations:
+      required: false

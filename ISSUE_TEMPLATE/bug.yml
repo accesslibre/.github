@@ -1,0 +1,41 @@
+name: Bug report
+description: Something is broken in an IATF repository.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report. Please keep
+        descriptions in plain language and avoid sharing private contact
+        details, medical information, or identifying information about
+        individual users of assistive technologies.
+  - type: input
+    id: where
+    attributes:
+      label: Where did this happen?
+      description: Repository, page, route, or command.
+      placeholder: e.g. iatf-webpage, /projects/ on iatf.cc
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you expected versus what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: A short list of steps that reliably triggers the issue.
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, assistive technology, or runtime version, if relevant.
+    validations:
+      required: false

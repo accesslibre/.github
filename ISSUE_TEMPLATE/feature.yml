@@ -1,0 +1,36 @@
+name: Feature or change proposal
+description: Suggest an improvement or change to an IATF repository.
+title: "[Proposal]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for changes to an existing IATF repository. New
+        accessibility *projects* go through the public intake at
+        <https://iatf.cc/propose/>, not here.
+  - type: input
+    id: where
+    attributes:
+      label: Which repository or area?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the underlying need in plain language.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What change do you propose?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
