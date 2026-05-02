@@ -15,7 +15,7 @@ body:
     attributes:
       label: Where did this happen?
       description: Repository, page, route, or command.
-      placeholder: e.g. iatf-webpage, /projects/ on iatf.cc
+      placeholder: e.g. iatf-website, /projects/ on iatf.cc
     validations:
       required: true
   - type: textarea
