@@ -14,5 +14,5 @@ own copy inherit these defaults:
 
 Durable governance records (chair, decisions, costs, public request
 summaries) live in
-[`iatf-governance`](https://github.com/international-accessibility-task-force/iatf-governance).
+[`governance`](https://github.com/accesslibre/governance).
 The public website is at <https://iatf.cc>.
