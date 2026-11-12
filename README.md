@@ -12,7 +12,7 @@ own copy inherit these defaults:
 - [`ISSUE_TEMPLATE/`](./ISSUE_TEMPLATE)
 - [`PULL_REQUEST_TEMPLATE.md`](./PULL_REQUEST_TEMPLATE.md)
 
-Durable governance records (chair, decisions, costs, public request
-summaries) live in
+Durable governance records (operating policies, decisions, costs, public
+request summaries and historical IATF records) live in
 [`governance`](https://github.com/accesslibre/governance).
 The public website is at <https://iatf.cc>.
